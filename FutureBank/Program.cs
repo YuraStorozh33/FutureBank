@@ -8,7 +8,13 @@ namespace FutureBank
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("init commit test 2");
+            using (MyBankContext db=new MyBankContext())
+            {
+
+
+
+
+            }
         }
     }
 }
